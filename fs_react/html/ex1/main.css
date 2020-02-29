@@ -1,0 +1,47 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
+.header {
+    background: yellowgreen;
+}
+
+.container {
+    width : 980px;
+    margin : auto;
+    background: tomato;
+}
+
+.container-left {
+
+}
+
+.logo {
+    float : left;
+    margin-right : 5px;
+}
+
+/* 유지보수를 위해  CSS 작성 시 HTML 태그 구조와 맞춰서 작성 */
+/* display block으로 정확한 픽셀 계산 가능하게 만듬 */
+.logo img {
+    display: block;
+}
+
+.menu {
+    float : left;
+    margin : 5px;
+}
+
+/* 수평 속성으로 만들기 */
+.menu-item {
+    float : left; 
+    margin-right : 10px;
+}
+
+/* 배경색상 해결 */
+.clearfix::after {
+    content : "";
+    display : block;
+    clear : both;
+}
