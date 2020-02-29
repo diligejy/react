@@ -4,17 +4,17 @@ body {
 }
 
 .header {
-    background: yellowgreen;
+    background : white;
+    border-bottom: 1px solid lightgray;
 }
 
 .container {
     width : 980px;
     margin : auto;
-    background: tomato;
 }
 
 .container-left {
-
+    padding : 20px 0;
 }
 
 .logo {
@@ -24,20 +24,25 @@ body {
 
 /* 유지보수를 위해  CSS 작성 시 HTML 태그 구조와 맞춰서 작성 */
 /* display block으로 정확한 픽셀 계산 가능하게 만듬 */
-/* 윤재영 바보 ㅗ */
 .logo img {
     display: block;
 }
 
 .menu {
     float : left;
-    margin : 5px;
 }
 
 /* 수평 속성으로 만들기 */
 .menu-item {
-    float : left; 
-    margin-right : 10px;
+    float: left;
+    /* margin-right: 10px; */
+    padding: 8px 10px;
+    /* 위 코드의 의미 */
+    /* padding-top : 8px; */
+    /* padding-bottom : 8px; */
+    /* padding-left : 10px; */
+    /* padding-right : 10px; */
+    
 }
 
 /* 배경색상 해결 */
@@ -46,3 +51,4 @@ body {
     display : block;
     clear : both;
 }
+
