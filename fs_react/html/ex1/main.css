@@ -24,6 +24,7 @@ body {
 
 /* 유지보수를 위해  CSS 작성 시 HTML 태그 구조와 맞춰서 작성 */
 /* display block으로 정확한 픽셀 계산 가능하게 만듬 */
+/* 윤재영 바보 ㅗ */
 .logo img {
     display: block;
 }
